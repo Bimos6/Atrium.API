@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11123.170
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AtriumFrontend", "..\AtriumFrontend\", "{42D6691D-D5D0-E35C-EBEC-5D82E2B76371}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53043"
+		Debug.AspNetCompiler.PhysicalPath = "..\AtriumFrontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53043\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53043"
+		Release.AspNetCompiler.PhysicalPath = "..\AtriumFrontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53043\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53043"
+		SlnRelativePath = "..\AtriumFrontend\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrium.Infrastructure", "Atrium.Infrastructure\Atrium.Infrastructure.csproj", "{D76CF9E5-35E8-485B-9A72-D61C408F735C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrium.API", "Atrium.API\Atrium.API.csproj", "{BDF893A3-1830-424B-9BF7-3643542FF1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrium.Core", "Atrium.Core\Atrium.Core.csproj", "{D168FBFB-7E3A-ECFD-CDA5-28BD56FF5F96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D6691D-D5D0-E35C-EBEC-5D82E2B76371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D6691D-D5D0-E35C-EBEC-5D82E2B76371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D6691D-D5D0-E35C-EBEC-5D82E2B76371}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D6691D-D5D0-E35C-EBEC-5D82E2B76371}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D76CF9E5-35E8-485B-9A72-D61C408F735C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76CF9E5-35E8-485B-9A72-D61C408F735C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76CF9E5-35E8-485B-9A72-D61C408F735C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76CF9E5-35E8-485B-9A72-D61C408F735C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF893A3-1830-424B-9BF7-3643542FF1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF893A3-1830-424B-9BF7-3643542FF1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF893A3-1830-424B-9BF7-3643542FF1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF893A3-1830-424B-9BF7-3643542FF1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D168FBFB-7E3A-ECFD-CDA5-28BD56FF5F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D168FBFB-7E3A-ECFD-CDA5-28BD56FF5F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D168FBFB-7E3A-ECFD-CDA5-28BD56FF5F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D168FBFB-7E3A-ECFD-CDA5-28BD56FF5F96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55D925A0-16AD-4170-BF7C-DEE7F75D676F}
+	EndGlobalSection
+EndGlobal

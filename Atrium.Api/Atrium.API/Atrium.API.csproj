@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>53d0fbac-1c53-4895-86b0-fa218187a141</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<RootNamespace>Atrium.API</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+	<ProjectReference Include="..\Atrium.Core\Atrium.Core.csproj" />
+	<ProjectReference Include="..\Atrium.Infrastructure\Atrium.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
